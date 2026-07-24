@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Queensland Sweetpotato Skinning Risk Agent",
-  description: "Demonstration prototype for estimating sweetpotato skinning risk in Queensland."
+  title: "Australian Sweetpotato Skinning Risk Agent",
+  description: "Demonstration prototype for estimating sweetpotato skinning risk in Australian growing regions."
 };
 
 export const viewport: Viewport = {
