@@ -140,7 +140,7 @@ export default function Page() {
     <main className="page">
       <header className="hero">
         <div>
-          <p className="eyebrow">Queensland, Australia</p>
+          <p className="eyebrow">Australia</p>
           <h1>Sweetpotato Skinning Risk Agent</h1>
           <p className="subtitle">Demonstration Prototype – Proof of Concept</p>
         </div>
@@ -156,7 +156,7 @@ export default function Page() {
 
       <section className="location-row">
         <div>
-          <label>Queensland production region</label>
+          <label>Australian production region</label>
           <select value={location} onChange={e => selectLocation(e.target.value as LocationName)}>
             {Object.keys(locations).map(name => <option key={name}>{name}</option>)}
           </select>
