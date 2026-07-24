@@ -24,9 +24,9 @@ const riskLabel = (score:number):RiskLevel =>
 export default function Page() {
   const [location, setLocation] = useState<LocationName>("Bundaberg");
   const [cultivar, setCultivar] = useState("Beauregard");
-  const [gdd, setGdd] = useState(locations.Bundaberg.gdd);
+ const [gdd, setGdd] = useState<number>(locations.Bundaberg.gdd);
   const [daysSinceCutoff, setDaysSinceCutoff] = useState(7);
-  const [forecastRain, setForecastRain] = useState(locations.Bundaberg.rain);
+  const [forecastRain, setForecastRain] = useState<number>(locations.Bundaberg.rain);
   const [vineRemovalDays, setVineRemovalDays] = useState(0);
   const [soilMoisture, setSoilMoisture] = useState<Moisture>("Adequate");
   const [handling, setHandling] = useState<Handling>("Moderate");
