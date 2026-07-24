@@ -9,6 +9,7 @@ type Handling = "Gentle" | "Moderate" | "Aggressive";
 
 const locations = {
   "Bundaberg": { gdd: 1650, rain: 18, note: "Warm coastal production environment" },
+  "Cudgen": { gdd: 1580, rain: 20, note: "Northern New South Wales coastal production environment" },
   "Rockhampton": { gdd: 1740, rain: 12, note: "Warm subtropical environment" },
   "Lockyer Valley": { gdd: 1510, rain: 10, note: "Inland production environment" },
   "Atherton Tablelands": { gdd: 1390, rain: 22, note: "Elevated tropical environment" },
